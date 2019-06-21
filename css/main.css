@@ -453,14 +453,14 @@ ul.sub-menu {
 
 .home-banner-one .banner-content {
     background-image: url(../images/bg/banner.JPG);
-    background-color: #e7e7e7;
+    background-color: white;
     position: relative;
     background-position: center;
     background-size: cover;
 }
 
 .home-two #home-banner {
-    background-image: url(../images/bg/2.png);
+    /* background-image: url(../images/bg/2.png); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
