@@ -11,8 +11,8 @@
 
 /* Table of Contents
 ==================================================
-# Global 
-# Home Banner 
+# Global
+# Home Banner
 # About Section
 # Skill Section
 # Exprience Section
@@ -90,7 +90,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .bg-color {
-    background-color: #f9f9f9;
+    background-color: white;
     position: relative;
 }
 
@@ -101,7 +101,7 @@ a:focus, button:focus, .btn:focus,
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #f9f9f9;
+    background-color: white;
     display: block;
 }
 
@@ -110,16 +110,18 @@ a:focus, button:focus, .btn:focus,
 }
 
 .btn.btn-primary {
-    padding-left: 30px;
-    padding-right: 30px;
+  padding: 10px 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
     font-size: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     background-color: #3c70b4;
     border: 1px solid #3c70b4;
     position: relative;
     overflow: hidden;
     z-index: 1;
+    margin-left: 30%;
 }
 
 .btn.btn-primary:before {
@@ -161,9 +163,9 @@ a:focus, button:focus, .btn:focus,
 
 #navigation.menu-one .navbar-nav>li {
     float: none;
-    height: 9.1%;
+    height: 10%;
     position: relative;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 
 #navigation.menu-one .navbar-nav {
@@ -175,7 +177,7 @@ a:focus, button:focus, .btn:focus,
     margin-left: 0;
     padding-left: 10px;
 }
- 
+
 #navigation .navbar-nav>li a {
     color: #fff;
     font-size: 14px;
@@ -200,7 +202,7 @@ a:focus, button:focus, .btn:focus,
     margin-top: -6px;
 }
 
-.nav>li>a:focus, 
+.nav>li>a:focus,
 .nav>li>a:hover {
     background-color: transparent;
 }
@@ -208,7 +210,7 @@ a:focus, button:focus, .btn:focus,
 #navigation.menu-one .navbar:before {
     left: 15px;
     right: -100%;
-} 
+}
 
 #navigation.menu-one .navbar:after {
    display: none;
@@ -311,7 +313,7 @@ a:focus, button:focus, .btn:focus,
 
 #navigation.menu-two .navbar-nav>li:last-child a:hover,
 #navigation.menu-two .navbar-nav>li:last-child.current a {
-    
+
 }
 
 #navigation.menu-two .navbar-nav>li:last-child {
@@ -331,7 +333,7 @@ a:focus, button:focus, .btn:focus,
 
 #navigation .navbar:before {
     right:0;
-    background-color: #2d3038;
+    background-color: #f7df61;
     left: -100%;
 }
 
@@ -363,12 +365,12 @@ ul.sub-menu {
   list-style: none;
   padding:7px 0;
   margin: 0;
-  min-width: 160px; 
+  min-width: 160px;
   display: none;
   z-index: 999;
   background-color: #f4bf00;
 }
-  
+
 .nav.navbar-nav > li:hover > ul.sub-menu {
   display: block;
   -webkit-animation: fadeInUp 500ms;
@@ -446,7 +448,7 @@ ul.sub-menu {
 }
 
 .home-banner-one {
-    background-color: #e7e7e7;
+    background-color: white;
 }
 
 .home-banner-one .banner-content {
@@ -532,7 +534,7 @@ ul.sub-menu {
 .about-section .section-title h4 {
     margin-top: 0;
     line-height: 0;
-} 
+}
 
 .about-info {
     font-size: 14px;
@@ -543,7 +545,7 @@ ul.sub-menu {
     font-weight: normal;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: 'Sacramento', cursive;    
+    font-family: 'Sacramento', cursive;
 }
 
 .about-section address {
@@ -636,7 +638,7 @@ ul.sub-menu {
   -ms-transition: width 2s ease-in-out;
   -o-transition: width 2s ease-in-out;
   transition:  width 2s ease-in-out;
-  border-radius: 4px;   
+  border-radius: 4px;
 }
 
 .progress-bar.bar1 {
@@ -747,7 +749,7 @@ ul.sub-menu {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-    transform: scale(1);    
+    transform: scale(1);
 }
 
 .exprience-info {
@@ -813,7 +815,7 @@ ul.sub-menu {
     -moz-transition: all 500ms;
     -ms-transition: all 500ms;
     -o-transition: all 500ms;
-    transition: all 500ms;    
+    transition: all 500ms;
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -1039,15 +1041,15 @@ img.mfp-img {
 }
 
 .contact .form-control:-moz-placeholder {
-   color: #2d3038;  
+   color: #2d3038;
 }
 
-.contact .form-control::-moz-placeholder { 
-   color: #2d3038;  
+.contact .form-control::-moz-placeholder {
+   color: #2d3038;
 }
 
-.contact .form-control:-ms-input-placeholder {  
-   color: #2d3038;  
+.contact .form-control:-ms-input-placeholder {
+   color: #2d3038;
 }
 
 /* Blog Section */
@@ -1070,7 +1072,7 @@ img.mfp-img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: rgba(45, 48, 56, 0.3); 
+    background-color: rgba(45, 48, 56, 0.3);
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -1096,7 +1098,7 @@ img.mfp-img {
     width: 84px;
     height: 84px;
     color: #fff;
-    font-size: 36px;    
+    font-size: 36px;
     background-color: #f4bf00;
     line-height: 60px;
     text-align: center;
@@ -1173,7 +1175,7 @@ img.mfp-img {
 
 .profile-section {
     font-size: 14px;
-    line-height: 24px;  
+    line-height: 24px;
 }
 
 .profile-section .profile-info {
@@ -1547,7 +1549,7 @@ h3.widget_title {
 }
 
 .post-action span {
-    font-size: 14px;    
+    font-size: 14px;
     color: #cfcfcf;
     text-transform: uppercase;
 }
@@ -1593,4 +1595,13 @@ a, #contact-section li a i:hover,
     font-weight: normal;
     font-style: normal;
 
-} 
+}
+
+.myskill {
+  background-color: #f26522;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+
+}
