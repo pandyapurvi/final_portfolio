@@ -72,8 +72,8 @@ a:focus, button:focus, .btn:focus,
 }
 
 .section-padding {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .section-title {
@@ -772,12 +772,17 @@ ul.sub-menu {
 
 
 /* Education Section */
-
+.education {
+  width: 120px;
+  height: 100px;
+  /* margin-left: 30%; */
+}
 .education-info {
     font-size: 14px;
     line-height: 24px;
     padding-bottom: 5px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .education-info h3 {
