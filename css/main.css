@@ -660,6 +660,12 @@ ul.sub-menu {
 .progress-bar.bar5 {
     background-color: #87c05e;
 }
+.progress-bar.bar6 {
+  background-color: #f4bf00;
+}
+.progress-bar.bar7 {
+  background-color: #873e95;
+}
 
 .language-skill {
     margin-top: 50px;
@@ -1609,4 +1615,11 @@ a, #contact-section li a i:hover,
   color: white;
   width: 200px;
 
+}
+
+.portfolio-btn {
+  color: #f26522;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
 }
