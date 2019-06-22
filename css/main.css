@@ -539,6 +539,7 @@ ul.sub-menu {
 .about-info {
     font-size: 14px;
     line-height: 24px;
+    text-align: justify;
 }
 
 .about-info .signature h1 {
@@ -724,6 +725,7 @@ ul.sub-menu {
     line-height: 24px;
     color: #2d3038;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .text-info h4 {}
