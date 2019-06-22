@@ -761,6 +761,7 @@ ul.sub-menu {
 .exprience-info {
     font-size: 14px;
     line-height: 24px;
+    text-align: justify;
 }
 
 .exprience-info h3 {
